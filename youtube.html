@@ -4,21 +4,451 @@
 </head>
 
 <body>
-	<nav>
-		
-	</nav>
-	<div class="video-display">
-		<div class="video-player">
+	<div class="container">
+		<nav>
+			<div class="left-navbar">
+				<img src="images/menu.png" alt="menu icon" class="icon">
+				<a href="#">
+					<img src="images/yt_logo_rgb_light.png" alt="youtube logo" id="yt-logo">
+				</a>
+				<form class="search-form">
+					<input type="text" name="q" id="search" placeholder="Search">
+
+					<button>
+						<img src="images/search.png" alt="search icon" id="search-btn">
+					</button>
+				</form>
+			</div>
 			
+			<div class="account">
+				<a href="#">
+					<img src="images/video.png" alt="create a video icon" class="icon">
+				</a>
+				<a href="#">
+					<img src="images/grid.png" alt="youtube apps icon" class="icon">
+				</a>
+				<a href="#">
+					<img src="images/bell.png" alt="notifications icon" class="icon">
+				</a>
+				<button id="account-logo">J</button>
+			</div>
+		</nav>
+		<div class="video-display">
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/6wlVzb76YsM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="video-player"></iframe>
+			<div class="video-under">
+				<div class="video-info">
+					<p class="video-title">KERWIN FROST PRESENTS THE KIDS SEE GHOSTS LISTENING PARTY</p>
+					<p class="video-stats">217,313 Views • Jun 23, 2018</p>
+				</div>
+				<div class="video-options">
+					<div class="thumbs inline">
+						<a href="#" class="option-text">
+							<img src="images/thumb-up.png" alt="thumb up" class="option-img">
+							5.6K
+						</a>
+						<a href="#" class="option-text right-thumb">
+							<img src="images/thumb-down.png" alt="thumb down" class="option-img">
+							59
+						</a>
+					</div>
+					<div class="share inline">
+						<a href="#" class="option-text">
+							<img src="images/arrow.png" class="option-img">
+							SHARE
+						</a>
+					</div>
+					<div class="save inline">
+						<a href="#" class="option-text">
+							<img src="images/menu.png" class="option-img">
+							SAVE
+						</a>
+					</div>
+					<div class="ellipsis inline">
+						<img src="images/ellipsis.png" class="option-img">
+					</div>
+				</div>
+			</div>
+			<div class="description-box">
+				<div class="description-top">
+				<div class="profile">
+						<img src="https://yt3.ggpht.com/a/AATXAJxK8LIfrBV3WhVETTGwSw1yKfN4JANlOQr3qQ=s176-c-k-c0xffffffff-no-rj-mo" alt="kerwin" class="prof-pic">
+						  <div class="prof-info inline">
+							<p class="prof-name">Kerwin Frost</p>
+							<p class="">132K Subscribers</p>
+						  </div>
+					</div>
+					<button class="subscribe">
+						SUBSCRIBE
+					</button>
+				</div>
+				<div class="description">
+					<p>STARRING KERWIN FROST</p>
+					<P>DIRECTED BY WHITE TRASH TYLER</P>
+					<p class="show">SHOW MORE</p>
+				</div>
+			</div>
 		</div>
-		<div class="video-info">
-			
+		<div class="other-videos">
+			<div class="rec-top-bar">
+				<p id="up-next" class="text">Up Next</p>
+				<div id="autoplay">
+				  <p class="inline text">AUTOPLAY</p>
+				  <a href="#">
+				  	<img src="images/toggle.png" alt="toggle icon" class="toggle">
+				  </a>
+				</div>
+			</div>
+			<a class="rec-vid" id="first-rec" href="#">
+				<img src="https://i.ytimg.com/vi/zR5LXlf8fzM/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLAW-VCGEyzjsY2gTgRiSdQceJUWzA" alt="vid thumbnail" class="rec-thumbnail">
+				<div class="rec-info">
+					<p>
+						KERWIN FROST PRESENTS THE 2018 KARDASHIAN-JENNER...
+					</p>
+					<p>
+						Kerwin Frost
+					</p>
+					<p>
+						419K Views • 1 year ago
+					</p>
+				</div>
+			</a>
+			<a class="rec-vid" id="second-rec" href="#">
+				<img src="https://i.ytimg.com/vi/Qv5AkwOwMeo/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLBrUCbeGucqB70w-A1sdj81rq_9Jg" alt="vid thumbnail" class="rec-thumbnail">
+				<div class="rec-info">
+					<p>
+						KERWIN FROST PRESENTS THE KANYE WEST WYOMING...
+					</p>
+					<p>
+						Kerwin Frost
+					</p>
+					<p>
+						419K Views • 1 year ago
+					</p>
+				</div>
+			</a>
+			<a class="rec-vid" href="#">
+				<img src="https://i.ytimg.com/vi/imcsxn03aJc/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLB6YOz3YvXT7HqoeWMoldb0Rk18kw" alt="vid thumbnail" class="rec-thumbnail">
+				<div class="rec-info">
+					<p>
+						KERWIN FROST TALKS WITH ASAP ROCKY & IAN CONNOR...
+					</p>
+					<p>
+						Kerwin Frost
+					</p>
+					<p>
+						1.3M Views • 11 months ago
+					</p>
+				</div>
+			</a>
+			<a class="rec-vid" href="#">
+				<img src="https://i.ytimg.com/vi/br-9INdLyF8/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLAHR0cMjbPz2CFqlgNg3jxdJ78FQw" alt="vid thumbnail" class="rec-thumbnail">
+				<div class="rec-info">
+					<p>
+						KERWIN FROST PRESENTS THE CALIFORNIA CASH COW...
+					</p>
+					<p>
+						Kerwin Frost
+					</p>
+					<p>
+						70K Views • 1 year ago
+					</p>
+				</div>
+			</a>
+			<a class="rec-vid" href="#">
+				<img src="https://i.ytimg.com/vi/adqH75zeiKk/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLBdW_p2HIdjuMi_DcBQQKyoGosF1Q" alt="vid thumbnail" class="rec-thumbnail">
+				<div class="rec-info">
+					<p>
+						Cherry Bomb The Documentary
+					</p>
+					<p>
+						Illegal Civ
+					</p>
+					<p>
+						2.9M Views • 2 years ago
+					</p>
+				</div>
+			</a>
+			<a class="rec-vid" href="#">
+				<img src="https://i.ytimg.com/vi/wuSmctv06EA/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLARLiZsIhRdwblqDBi7DjsF5KJowg" alt="vid thumbnail" class="rec-thumbnail">
+				<div class="rec-info">
+					<p>
+						KERWIN FROST PRESENTS THE FREE MONEY GIVEAWAY IN...
+					</p>
+					<p>
+						Kerwin Frost
+					</p>
+					<p>
+						67K Views • 1 year ago
+					</p>
+				</div>
+			</a>
+			<a class="rec-vid" href="#">
+				<img src="https://i.ytimg.com/vi/5_Y8sXeoYrE/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLB3RDGb-0GNvi-WOYAEwG2p1hJt7g" alt="vid thumbnail" class="rec-thumbnail">
+				<div class="rec-info">
+					<p>
+						KERWIN FROST TALKS TO TYLER THE CREATOR (EPISO...
+					</p>
+					<p>
+						Kerwin Frost
+					</p>
+					<p>
+						1.2M Views • 4 months ago
+					</p>
+				</div>
+			</a>
+			<a class="rec-vid" href="#">
+				<img src="https://i.ytimg.com/vi/UlFNy9iWrpE/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLD-U3xH-tlHq0wyhhO0nZtnbIOzoA" alt="vid thumbnail" class="rec-thumbnail">
+				<div class="rec-info">
+					<p>
+						John Coltrane - My Favorite Things (1961) (Full Album)
+					</p>
+					<p>
+						Jazz Time with Jarvis X
+					</p>
+					<p>
+						516K Views • 5 years ago
+					</p>
+				</div>
+			</a>
+			<a class="rec-vid" href="#">
+				<img src="https://i.ytimg.com/vi/PNl63ARx0DM/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLBntYQKPlmjJe9XEPehAMOBSmhlxw" alt="vid thumbnail" class="rec-thumbnail">
+				<div class="rec-info">
+					<p>
+						Lester Young with the Oscar Peterson Trio (Full Album)
+					</p>
+					<p>
+						Hardy Blues
+					</p>
+					<p>
+						22K Views • 5 years ago
+					</p>
+				</div>
+			</a>
+			<div class="rec-vid">
+				<img src="https://i.ytimg.com/vi/8zcEsKNhRT0/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLDQOoCWFR_fD7mep7nHayfWAXtsRA" alt="vid thumbnail" class="rec-thumbnail">
+				<div class="rec-info">
+					<p>
+						CRAIG BUTLER *FULL VERSION*
+					</p>
+					<p>
+						Kerwin Frost
+					</p>
+					<p>
+						22K Views • 1 year ago
+					</p>
+				</div>
+			</div>
+			<div class="rec-vid">
+				<img src="https://i.ytimg.com/vi/8lC1vOCmiFc/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLBw1bKLr_yWqPh0OB9o6wKflBIb7w" alt="vid thumbnail" class="rec-thumbnail">
+				<div class="rec-info">
+					<p>
+						KERWIN FROST TALKS TO POST MALONE (EPISODE 11)
+					</p>
+					<p>
+						Kerwin Frost
+					</p>
+					<p>
+						1.1M Views • 8 months ago
+					</p>
+				</div>
+			</div>
+			<div class="rec-vid">
+				<img src="https://i.ytimg.com/vi/51OnpHwuyBo/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLCv8zFfl4DzuB-poWBdOc21FOdC8g" alt="vid thumbnail" class="rec-thumbnail">
+				<div class="rec-info">
+					<p>
+						Kerwin Frost Explains The Pencil Tattoo (OFFICIAL VIDEO)
+					</p>
+					<p>
+						Kerwin Frost
+					</p>
+					<p>
+						102K Views • 3 years ago
+					</p>
+				</div>
+			</div>
+			<div class="rec-vid">
+				<img src="https://i.ytimg.com/vi/qyelNPaDNPI/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLDopxM8ZtL5hpVLgJV3EVM8PWdnCA" alt="vid thumbnail" class="rec-thumbnail">
+				<div class="rec-info">
+					<p>
+						VLONE BLACK HISTORY - PARIS FASHION WEEK - PART ONE
+					</p>
+					<p>
+						Antoine
+					</p>
+					<p>
+						183K Views • 1 year ago
+					</p>
+				</div>
+			</div>
+			<div class="rec-vid">
+				<img src="https://i.ytimg.com/vi/8VE_dP90V84/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLDmCo7zQBSmAEVNI56kMIjrb_VyPw" alt="vid thumbnail" class="rec-thumbnail">
+				<div class="rec-info">
+					<p>
+						Miles Davis with John Coltrane- March 21, 1960 Olympia...
+					</p>
+					<p>
+						Milestones: A Miles Davis Archive
+					</p>
+					<p>
+						224 Views • 3 months ago
+					</p>
+				</div>
+			</div>
+			<div class="rec-vid">
+				<img src="https://i.ytimg.com/vi/7644e28HIDc/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLAXQ_2GA5Mu9ATl5NmNdlxG4DnTcw" alt="vid thumbnail" class="rec-thumbnail">
+				<div class="rec-info">
+					<p>
+						BALMAIN: OLIVIER ROUSEING FUN & PERSONAL! By Loic...
+					</p>
+					<p>
+						Loic Prigent
+					</p>
+					<p>
+						230 Views • 1 month ago
+					</p>
+				</div>
+			</div>
+
 		</div>
-	</div>
-	<div class="other-videos">
-		
-	</div>
-	<div class="comments">
+		<div class="comments">
+			<div class="comments-top">
+				<p class="inline">362 Comments</p>
+				<div class="sort inline">
+					<a href="#" class="sort-text">
+						<img src="images/menu.png">
+						SORT BY
+					</a>
+				</div>
+			</div>
+			<div class="write-comment">
+				<button id="my-prof-pic">J</button>
+				<form>
+					<input type="text" name="comment" placeholder="Add a public comment" class="comment-input">
+				</form>
+			</div>
+			<div class="comment">
+				<img src="https://yt3.ggpht.com/a/AATXAJz0n4hf7gWFdjYzun6jFoy3LYRriqWGLENOmA=s48-c-k-c0xffffffff-no-rj-mo" class="prof-pic">
+				  <div class="cmt-info">
+					<div class="cmt-header">
+						<a href="#" class="user-profile">
+							<p class="prof-name inline">Jacquizz Lemons</p>
+							<p class="inline" id="date">1 year ago</p>
+						</a>
+					</div>
+					<div class="cmt-content">
+						<p>Wow that audio during the listening section was incredible</p>
+					</div>
+					<div class="cmt-actions">
+						<a href="#" class="option-text">
+							<img src="images/thumb-up.png" alt="thumb up" class="small-thumb">
+							1.2K
+						</a>
+						<a href="#" class="option-text">
+							<img src="images/thumb-down.png" alt="thumb down" class="small-thumb">
+						</a>
+						<p class="option-text inline">REPLY</p>
+					</div>
+					<div class="cmt-replies">
+						<a href="#">
+							<img src="images/triangle.png" class="small-triangle">
+							<p class="option-text inline blue">View 2 replies</p>
+						</a>
+					</div>
+				  </div>
+			</div>
+			<div class="comment">
+				<img src="https://yt3.ggpht.com/a/AATXAJw0wsp6WOm_NQRyuxcXi3xyAopvY5ioB65xvw=s48-c-k-c0xffffffff-no-rj-mo" class="prof-pic">
+				  <div class="cmt-info">
+					<div class="cmt-header">
+						<a href="#" class="user-profile">
+							<p class="prof-name inline">Bax Mrackney</p>
+							<p class="inline" id="date">1 year ago</p>
+						</a>
+					</div>
+					<div class="cmt-content">
+						<p>He looks like if earl sweatshirt and Eric Andre gave had an overweight child
+
+</p>
+					</div>
+					<div class="cmt-actions">
+						<a href="#" class="option-text">
+							<img src="images/thumb-up.png" alt="thumb up" class="small-thumb">
+							910
+						</a>
+						<a href="#" class="option-text">
+							<img src="images/thumb-down.png" alt="thumb down" class="small-thumb">
+						</a>
+						<p class="option-text inline">REPLY</p>
+					</div>
+					<div class="cmt-replies">
+						<a href="#">
+							<img src="images/triangle.png" class="small-triangle">
+							<p class="option-text inline blue">View 2 replies</p>
+						</a>
+					</div>
+				  </div>
+			</div>
+			<div class="comment">
+				<img src="https://yt3.ggpht.com/a/AATXAJx3D3OsoTCoR4CTXUMnTTV-ofCOKNyfcs2vPg=s48-c-k-c0xffffffff-no-rj-mo" class="prof-pic">
+				  <div class="cmt-info">
+					<div class="cmt-header">
+						<a href="#" class="user-profile">
+							<p class="prof-name inline">KLIC KLIC BANG</p>
+							<p class="inline" id="date">1 year ago</p>
+						</a>
+					</div>
+					<div class="cmt-content">
+						<p>bro really got that exclusive kim k interview/p>
+					</div>
+					<div class="cmt-actions">
+						<a href="#" class="option-text">
+							<img src="images/thumb-up.png" alt="thumb up" class="small-thumb">
+							621
+						</a>
+						<a href="#" class="option-text">
+							<img src="images/thumb-down.png" alt="thumb down" class="small-thumb">
+						</a>
+						<p class="option-text inline">REPLY</p>
+					</div>
+					<div class="cmt-replies">
+						<a href="#">
+							<img src="images/triangle.png" class="small-triangle">
+							<p class="option-text inline blue">View 2 replies</p>
+						</a>
+					</div>
+				  </div>
+			</div>
+			<div class="comment">
+				<img src="https://yt3.ggpht.com/a/AATXAJy97EL1aRIjHd5FJl30McBoj6RbVNgLoMYhZg=s48-c-k-c0xffffffff-no-rj-mo" class="prof-pic">
+				  <div class="cmt-info">
+					<div class="cmt-header">
+						<a href="#" class="user-profile">
+							<p class="prof-name inline">Griselda</p>
+							<p class="inline" id="date">10 months ago</p>
+						</a>
+					</div>
+					<div class="cmt-content">
+						<p>I love how everyone gets subtitles except desiigner</p>
+					</div>
+					<div class="cmt-actions">
+						<a href="#" class="option-text">
+							<img src="images/thumb-up.png" alt="thumb up" class="small-thumb">
+							122
+						</a>
+						<a href="#" class="option-text">
+							<img src="images/thumb-down.png" alt="thumb down" class="small-thumb">
+						</a>
+						<p class="option-text inline">REPLY</p>
+					</div>
+					<div class="cmt-replies">
+						<a href="#">
+							<img src="images/triangle.png" class="small-triangle">
+							<p class="option-text inline blue">View 2 replies</p>
+						</a>
+					</div>
+				  </div>
+			</div>
+		</div>
 		
 	</div>
 </body>
